@@ -1,7 +1,7 @@
 {
   "name": "Driftwater",
   "manufacturer": "Elsewave",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "format": "vst2",
   "kind": "effect",
   "uid": "ELdw",
@@ -10,9 +10,20 @@
   "category": "Effect",
   "shortName": "Driftwater",
   "knobs": [
-    { "parameter": 0, "label": "Output" }
+    {
+      "parameter": 0,
+      "label": "Rate"
+    },
+    {
+      "parameter": 1,
+      "label": "Damp"
+    },
+    {
+      "parameter": 2,
+      "label": "Depth"
+    }
   ],
   "file32": "VST/driftwater-arm32.so",
   "file64": "VST/driftwater-arm64.so",
-  "description": "Development scaffold for the Driftwater stereo modulation effect."
+  "description": "Stereo delay modulation with an envelope-driven low-pass gate and a dry/wet mix."
 }

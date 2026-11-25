@@ -1,11 +1,29 @@
 {
-  "kit": "cyan",
+  "kit": { "theme": "cyan", "accent": "ff62cbbb" },
+  "style": {
+    "background": "ff091e29",
+    "text": "fff3efdf",
+    "muted": "ffb0d5d0"
+  },
+  "qlinkGroups": "rows",
   "pages": [
     {
       "name": "MAIN",
+      "background": "driftwater-panel.png",
       "controls": [
-        { "param": "Output", "widget": "knob" }
+        { "param": "Rate", "widget": "knob" },
+        { "param": "Damp", "widget": "knob" },
+        { "param": "Depth", "widget": "knob" },
+        "empty",
+        { "param": "LPG", "widget": "knob" },
+        "empty",
+        { "param": "Mix", "widget": "knob" }
       ]
+    },
+    {
+      "name": "INFO",
+      "background": "driftwater-info.png",
+      "controls": []
     }
   ]
 }
