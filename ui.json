@@ -1,0 +1,11 @@
+{
+  "kit": "cyan",
+  "pages": [
+    {
+      "name": "MAIN",
+      "controls": [
+        { "param": "Output", "widget": "knob" }
+      ]
+    }
+  ]
+}
