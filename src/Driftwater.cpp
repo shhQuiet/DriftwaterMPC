@@ -29,7 +29,7 @@ mpc::PluginInfo makeInfo()
     info.name = "Driftwater";
     info.vendor = "Elsewave";
     info.uniqueId = MPC_FOURCC('E', 'L', 'd', 'w');
-    info.version = 1000;
+    info.version = 1001;
     info.isInstrument = false;
     info.numInputs = 2;
     info.numOutputs = 2;

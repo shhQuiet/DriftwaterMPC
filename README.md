@@ -8,7 +8,7 @@ Fairfield Circuitry Shallow Water.
 
 ## Install
 
-Download Driftwater 1.0.0 from [GitHub Releases](https://github.com/shhQuiet/DriftwaterMPC/releases).
+Download Driftwater from [GitHub Releases](https://github.com/shhQuiet/DriftwaterMPC/releases).
 Choose ARMv7 for Gen 1 or AArch64 for Gen 2. Enable External Plugin Support on
 MPC OS 3.10.1 or later. The archive includes instructions for copying the plugin
 folder into `VST2 Plugins`.
@@ -36,7 +36,5 @@ and Gen 2 (64-bit ARM). SDK output goes to `build/`.
 
 ## License
 
-The MPC wrapper and artwork are source available for noncommercial use under
-[Elsewave's license](LICENSE). See [third-party notices](THIRD_PARTY_NOTICES.md)
-for the exported engine and runtime. The original Max project and GenExpr
-are maintained separately from this repository.
+Elsewave’s MPC wrapper and artwork are MIT licensed. The RNBO-generated engine
+uses Cycling ’74’s GPL version 3 option. See [third-party notices](THIRD_PARTY_NOTICES.md).
